@@ -1,0 +1,69 @@
+N_feat=3000; N_sentence=40 000
+
+
+Fitting the Random Forest Classifier (n_estimator=100)
+The Random forest training error is 0.267025
+359
+177
+The random forest testing error is 0.256267409471
+
+Adaboost (n_estimators=80): 
+test and training error around 0.33
+
+
+
+N_feat=10,000; N_sentence=50,000
+Fitting the Random Forest Classifier
+The Random forest training error is 0.05908
+359
+177
+The random forest testing error is 0.228412256267
+0.328673
+1.395996
+2143.359417
+
+
+N_feat=10,000; N_sentence=50,000
+Fitting the Logistic Regression Classifier
+Model Trained
+The Logistic regression validation error is 0.23795
+Saving the labels
+Predicting probabilites
+Evaluating the test Error
+The Logistic Regression testing error is 0.194986072423
+Saving the labels
+Predicting probabilites
+
+N_feat=3,000  ; N_sentence=50,000
+Fitting the Logistic Regression Classifier
+The Logistic Regression training error is 0.2614
+The Logistic regression validation error is 0.27775
+Saving the labels
+Predicting probabilites
+Evaluating the test Error
+
+#N_feat=10000 N_sentence=50000
+Fitting the Random Forest Classifier
+The Logistic regression validation error is 0.2552
+Saving the labels
+Predicting probabilites
+Evaluating the test Error
+The random forest testing error is 0.245125348189
+Saving the predictions
+Predicting probabilites
+
+
+#N_feat=3000; N_sentence=50,000
+The Adaboost training error is 0.34486
+The Adaboost validation error is 0.34305
+Saving the labels
+Predicting probabilites
+Evaluating the test Error
+The Adaboost testing error is 0.356545961003
+Saving the labels
+Predicting probabilites
+Saving probabilities
+0.100595
+1.520852
+381.339814
+
